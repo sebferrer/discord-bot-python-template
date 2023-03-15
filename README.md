@@ -6,8 +6,8 @@ This is a minimal architecture for building a discord bot using discord.py
 
 This template provides :
 - A message sending in a text channel.
-- A command builder with two examples (/help, /faq), and an Interaction listener.
-- A way to react to messages
+- A command builder with one example (/help), and an Interaction listener.
+- A way to react to messages.
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ GUILD_ID="Your_guild_id_here"
 
 ### Define your channels
 
-The channel IDs are defined in src/infra/channels-static.json
+The channel IDs are defined in channels-static.json
 ```json
 [
     {
